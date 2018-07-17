@@ -1,0 +1,114 @@
+/* You can add global styles to this file, and also import other style files */
+.card-header {
+    border-radius: 15px;
+    background: #c9ffbf;
+    opacity: 0.6;
+    padding: 20px; 
+    width: 250px;
+    height: 250px; 
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    
+} 
+.blue{
+    border-radius: 15px;
+    background: #ffafbd;
+    padding: 30px; 
+    opacity: 0.6;
+    width: 510px;
+    height: auto; 
+    margin-left: 10px;
+    margin-top: 10px;
+    display: block;
+   
+    
+
+}
+#yellow{
+    border-radius: 15px;
+    border: 5px solid rgb(243, 243, 133);
+    padding: 20px; 
+    width: 510px;
+    height: auto; 
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    vertical-align: top;
+}
+#mymy{
+    background-color: rgb(248, 248, 187);
+    border: 2px solid rgb(248, 248, 187);
+    color:rgb(207, 123, 137);
+    font-family: 'Knewave', cursive;
+}
+#mymy2{
+    background-color: rgb(248, 248, 187);
+    border: 2px solid rgb(248, 248, 187);
+    color:rgb(207, 123, 137);
+    margin-left: 10px;
+    font-family: 'Knewave', cursive;
+}
+#mymy3{
+    background-color: rgb(207, 123, 137);
+    border: 2px solid rgb(207, 123, 137);
+    font-family: 'Knewave', cursive;
+}
+#mybtn{
+    background-color: rgb(207, 123, 137);
+    border: 2px solid rgb(207, 123, 137);
+    font-family: 'Knewave', cursive;
+}
+#mydiv{
+    border-radius: 15px;
+    background: #c9ffbf;
+    padding: 20px; 
+    width: 250px;
+    height: 250px; 
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    /* background-color: transparent;
+    height: 250px;
+    display: none; border: 5px solid rgb(108, 218, 108);  */
+
+}
+.text{
+    color: rgb(204, 160, 39);
+    font-family: cursive;
+}
+.wrapper{
+    margin:0 auto; 
+    border-radius: 15px;
+    padding:10px;
+    width: 550px;
+    background: #C9FFBF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FFAFBD, #C9FFBF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFAFBD, #C9FFBF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+body { 
+    text-align:center; 
+} 
+#bobo{
+    font-family: 'Knewave', cursive;
+    font-weight: lighter;
+    color: rgb(202, 98, 116);
+}
+#bobo2{
+    font-family: 'Knewave', cursive;
+    font-weight: lighter;
+    color: #d59092;
+}
+#bobo3{
+    font-family: 'Knewave', cursive;
+    font-weight: lighter;
+    color: #d59092;
+}
+.bobo{
+    font-family: 'Knewave', cursive;
+    font-weight: lighter;
+    color: #C9FFBF;
+}
