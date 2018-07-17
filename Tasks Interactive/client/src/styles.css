@@ -1,0 +1,56 @@
+/* You can add global styles to this file, and also import other style files */
+.card-header {
+    border-radius: 15px;
+    background: #73AD21;
+    padding: 20px; 
+    width: 250px;
+    height: 250px; 
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+} 
+#blue{
+    border-radius: 15px;
+    background: rgb(14, 100, 228);
+    padding: 20px; 
+    width: 480px;
+    height: auto; 
+    vertical-align: top;
+
+}
+#yellow{
+    border-radius: 15px;
+    border: 5px solid rgb(243, 243, 133);
+    padding: 20px; 
+    width: 510px;
+    height: auto; 
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    vertical-align: top;
+}
+#mymy{
+    background-color: green;
+    border-radius: 70%;
+    color: white;
+    height: 60px;
+    border: 2px solid white;
+}
+#ggg{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid blueviolet;
+}
+#mydiv{
+    background-color: transparent;
+    height: auto;
+    display: none; border: 5px solid rgb(108, 218, 108); margin-top: 10px; width:510px;
+
+}
+.text{
+    color: rgb(204, 160, 39);
+    font-family: cursive;
+}
+
