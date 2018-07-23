@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Quotes</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+  <a [routerLink]="['/']">Home</a>
+  <h3>{{text}}{{_pet.name}}:</h3>
+  <h4>Pet type: {{_pet.breed}}</h4>
+  <h4>Description: {{_pet.description}}</h4>
+  <h4>Skills:</h4>
+  <h5 >{{_pet.skills[0]}}  </h5>
+  <h5 >{{_pet.skills[1]}}  </h5>
+  <h5 >{{_pet.skills[2]}}  </h5>
+
+  <button (click)="delete(_pet._id)">Adopt Pet</button>
+  <!-- <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">Pet type</th>
+          <th scope="col">Description</th>
+          <th scope="col">Actions Avalable</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr  *ngFor="let quote of _author.quotes"> 
+          <td>{{quote.quote}}</td>
+          <td>{{quote.rating}}</td>
+          <td ><button (click)="voteup(quote._id)">VoteUp</button><button (click)="votedown(quote._id)">VoteDown</button><button (click)="delete(quote._id)">Delete</button></td>
+        </tr>
+        </tbody>
+        </table>
+   -->
+</body>
+</html>
+

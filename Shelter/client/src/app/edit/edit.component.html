@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+</head>
+<body>
+  <a [routerLink]="['/']">Home</a>
+  <h3>{{text}}</h3>
+  <form (submit)="edit()">
+      <input type="text" name="name" [(ngModel)]="_pet.name" placeholder="Name"><br>
+      <br>
+      <input type="text" name="breed" [(ngModel)]="_pet.breed" placeholder="Type"><br>
+      <br>
+      <input type="text" name="description" [(ngModel)]="_pet.description" placeholder="Description">
+      <p>Skills:</p>
+      <input type="text"  name="skills" [(ngModel)] = "_pet.skills[0]" placeholder="skill#1"><br>
+      <br>
+      <input type="text"  name="skills" [(ngModel)] = "_pet.skills[1]" placeholder="skill#2"><br>
+      <br>
+      <input type="text"  name="skills" [(ngModel)] = "_pet.skills[2]" placeholder="skill#3"><br>
+      <br>
+      <input type="submit" value="Edit"><button [routerLink]="['/pets', _pet._id]">Cancel</button>
+    </form>
+    <p>{{errors}}</p>
+    <p >{{err2}}</p>
+    <p >{{err3}}</p>
+    <p >{{err4}}</p>
+
+  <!-- <form (submit)="edit(id)">
+    <input type="text" name="name" [(ngModel)] = "_author.name">
+    <input type="submit" value="Edit"><Button [routerLink]="['/']">Cancel</Button>
+  </form> -->
+  
+  
+</body>
+</html>
